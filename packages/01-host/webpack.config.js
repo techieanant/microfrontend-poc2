@@ -50,7 +50,7 @@ module.exports = {
         AppContainer: "./src/App",
       },
       // shared dependencies, helpful to make builds smaller
-      shared: ["react", "react-dom", "react-router-dom"],
+      shared: ["react", "react-dom", "react-router-dom", "@material-ui/core/Paper"],
     }),
     new HtmlWebpackPlugin({
       template: "./public/index.html",

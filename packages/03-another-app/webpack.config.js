@@ -40,7 +40,7 @@ module.exports = {
       exposes: {
         Message: "./src/Message",
       },
-      shared: ["react", "react-dom"],
+      shared: ["react", "react-dom", "@material-ui/core/Paper"],
     }),
     new HtmlWebpackPlugin({
       template: "./public/index.html",

@@ -43,7 +43,7 @@ module.exports = {
       remotes: {
         app_one: "app_one",
       },
-      shared: ["react", "react-dom", "react-router-dom"],
+      shared: ["react", "react-dom", "react-router-dom", "@material-ui/core/Paper"],
     }),
     new HtmlWebpackPlugin({
       template: "./public/index.html",
